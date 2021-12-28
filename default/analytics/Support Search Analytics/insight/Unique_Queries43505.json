@@ -1,0 +1,37 @@
+{
+  "$id": "c_Unique_Queries43505",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Unique Queries",
+  "description": "Search Terms by Answers Experience",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_SEARCH_TERMS"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_EXPERIENCE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_30"
+      },
+      {
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+        "in": [
+          "PRODUCTION"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "SUM"
+    }
+  }
+}

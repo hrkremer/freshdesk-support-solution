@@ -1,0 +1,51 @@
+{
+  "$id": "c_136280",
+  "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
+  "name": "Case Deflection Analytics",
+  "insights": [
+    {
+      "insight": "c_hero_line_chart_case_deflections",
+      "x": 0,
+      "y": 0,
+      "width": 4,
+      "height": 2
+    },
+    {
+      "insight": "c_Case_Deflection_Rate_by_Month42140",
+      "x": 4,
+      "y": 0,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Case_Deflections_by_Month42138",
+      "x": 4,
+      "y": 1,
+      "width": 2,
+      "height": 1
+    },
+    {
+      "insight": "c_Search_Terms_That_Led_To_Case_Submission",
+      "x": 0,
+      "y": 2,
+      "width": 3,
+      "height": 2
+    },
+    {
+      "insight": "c_deflected_search_terms",
+      "x": 3,
+      "y": 2,
+      "width": 3,
+      "height": 2
+    }
+  ],
+  "filters": [
+    {
+      "filter": "yext/date",
+      "between": [
+        "2021-07-27",
+        "2021-10-19"
+      ]
+    }
+  ]
+}

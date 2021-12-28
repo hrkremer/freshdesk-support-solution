@@ -1,0 +1,37 @@
+{
+  "$id": "c_Clicks_by_Search_Vertical41946",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Clicks by Search Vertical",
+  "description": "Answers Clicks by Search Vertical",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CLICKS"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_SEARCH_VERTICAL"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_30"
+      },
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+        "in": [
+          "PRODUCTION"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "pie": {
+      "showLabels": true
+    }
+  }
+}

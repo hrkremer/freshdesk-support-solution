@@ -1,0 +1,62 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers-help-site",
+  "name": "Answers Help Site",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "help_articles": {
+      "directAnswers": {
+        "featuredSnippets": {
+          "predictionMode": "ALLOW_ALL"
+        }
+      },
+      "entityTypes": [
+        "helpArticle"
+      ],
+      "name": "Help Articles",
+      "savedSearchId": "347436448",
+      "searchableFields": {
+        "body": {
+          "documentSearch": true
+        },
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "semanticTextSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    }
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "help",
+        "support"
+      ],
+      [
+        "guides",
+        "help articles"
+      ]
+    ]
+  },
+  "localizations": {},
+  "additionalSearchablePlaces": [],
+  "querySuggestions": {
+    "disablePopularQueries": false,
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
+      "Help Articles",
+      "How-to Guides"
+    ],
+    "verticalPrompts": {
+      "help_articles": [
+        "[[name]]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+    "$id": "c_help-title-clicks",
+    "$schema": "https://schema.yext.com/config/analytics/conversion-action/v2",
+    "conversionName": "Help - Title Clicks",
+    "conversionType": "COST_SAVING_CUSTOMER_SUPPORT",
+    "conversionValueType": "SAME",
+    "conversionValueAmount": 5.0,
+    "conversionTerm": {
+      "startDate": "2021-03-04"
+    },
+    "conversionTrigger": {
+      "clickTriggers": [
+        {
+          "clickType": "TITLE",
+          "entityFilter": {
+            "entityTypeIn": [
+              "helpArticle"
+            ]
+          },
+          "media": [
+            {
+              "mediumType": "ALL_ANSWERS_EXPERIENCES"
+            }
+          ]
+        }
+      ],
+      "completionRate": 100.0
+    },
+    "enabled": true
+  }

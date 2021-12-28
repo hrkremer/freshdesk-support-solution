@@ -1,0 +1,10 @@
+{
+  "$id": "supportembed.pagescdn.com",
+  "$schema": "https://schema.yext.com/config/pages/domain/v1",
+  "domainName": "${{businessId}}.supportembed.com",
+  "autoGenerateSitemap": true,
+  "domainAccess": false,
+  "pagesCDNAccess": true,
+  "answersIntegration": true,
+  "reverseProxy": false
+}

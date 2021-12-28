@@ -1,0 +1,28 @@
+{
+  "$id": "c_Case_Deflections_by_Month42138",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Case Deflections by Month",
+  "description": "Case Deflections by Month",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_DEFLECTIONS"
+    ],
+    "dimensions": [
+      "yext/MONTHS"
+    ],
+    "filters": [
+
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "SUM"
+    }
+  }
+}

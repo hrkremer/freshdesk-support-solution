@@ -1,0 +1,19 @@
+{
+  "$id": "Help-Article-2",
+  "$schema": "https://schema.yext.com/config/km/entity/v1",
+  "primaryLocale": "en",
+  "content": {
+    "externalArticlePostDate": "2021-03-01",
+    "c_activeInAnswers": "YES",
+    "c_helpArticleCategory": [
+      "How To"
+    ],
+    "externalArticleUpdateDate": "2021-03-10",
+    "body": "This article covers how to add a new user to your account. To add users in bulk, see [Add users in bulk](https://help.yext.com/hc/en-us/articles/360000000986).\n\n1. Hover over your name in the top navigation bar and click **Account Settings**.\n2. Click **User Management** in the sidebar.\n3. Click **+ Add User** and select **Add Single User**.\n4. Enter the user\u0027s first and last name.\n5. Enter the user\u0027s email address. This will also serve as their username.\n6. Choose one of the following options to set up a password: Select **User will create their own password**. The new user will receive an email prompting them to create a password. Select **Set a specific password** to create a password for them.\n7. If applicable, select the user\u0027s country.\n8. (Optional) Enter the user\u0027s phone number.\n9. Click on the drop\\-down button and select the appropriate role for the user.\n10. Select the entities or folders that you would like the user to have access to. Otherwise, they will have access to all entities by default. To add more than one access permission, click **+ Add access permission**.\n11. Partners Only: Enter an **External ID** to identify the user via the API. If left blank, an ID will automatically be generated.\n12. Click **Add User**.\n\nOnce a user is added to the account, they will need to verify their email address. To do this, see [Verify the email address associated with your Yext account](https://help.yext.com/hc/en-us/articles/360034394132).\n\nNew_User_GIF_2019_V3.gif  \nYou are responsible for ensuring that the correct personnel at your organization have appropriate access to data within the Yext platform. They should only be able to view and edit the data necessary to meet the requirements of their specific roles at your company.\n\nWe encourage you to take a conservative, least\\-privilege approach to assigning user permissions. We also encourage you to periodically review the list of users in your account and the permissions you\u0027ve assigned to each.\n\nFor assistance or more information, contact Support or your Account Manager.",
+    "landingPageUrl": "https://www.yext.com",
+    "name": "Add a New User",
+    "shortDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas finibus placerat justo a viverra. Quisque ut congue tellus, vitae fermentum velit. Suspendisse sed gravida libero. Etiam pulvinar tincidunt augue vitae fermentum. Maecenas tortor nunc, ullamcorper eu tortor sed, vestibulum suscipit libero. Praesent sit amet pulvinar massa. Proin mattis tellus tristique neque ullamcorper, vel vestibulum lorem dapibus. Vivamus et magna in justo posuere imperdiet sit amet amour tellus. 500 characters"
+  },
+  "entityType": "helpArticle",
+  "labels": []
+}

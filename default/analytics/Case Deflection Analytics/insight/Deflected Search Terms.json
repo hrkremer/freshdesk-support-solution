@@ -1,0 +1,39 @@
+{
+  "$id": "c_deflected_search_terms",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Deflected Search Terms",
+  "description": "Search Terms that were deflected by Support Search.",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_DEFLECTIONS",
+      "yext/ANSWERS_CASE_DEFLECTION_RATE",
+      "yext/ANSWERS_KG_RESULT_RATE"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_SEARCH_TERM"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      },
+
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/ANSWERS_CASE_DEFLECTIONS"
+        },
+        "descending": true
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "$id": "c_Knowledge_Graph_Result_Rate43489",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Knowledge Graph Result Rate",
+  "description": "Knowledge Graph Result Rate by Answers Experience",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_KG_RESULT_RATE"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_EXPERIENCE"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_30"
+      },
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
+        "in": [
+          "PRODUCTION"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "hero": {
+      "aggregation": "MEAN"
+    }
+  }
+}

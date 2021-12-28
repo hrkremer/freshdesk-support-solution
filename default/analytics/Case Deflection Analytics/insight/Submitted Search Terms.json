@@ -1,0 +1,39 @@
+{
+  "$id": "c_Search_Terms_That_Led_To_Case_Submission",
+  "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+  "name": "Submitted Search Terms",
+  "description": "Search Terms that were Submitted Despite Support Search.",
+  "query": {
+    "metrics": [
+      "yext/ANSWERS_CASE_SUBMITS",
+      "yext/ANSWERS_CASE_DEFLECTION_RATE",
+      "yext/ANSWERS_KG_RESULT_RATE"
+    ],
+    "dimensions": [
+      "yext/ANSWERS_SEARCH_TERM"
+    ],
+    "filters": [
+      {
+        "filter": "yext/date",
+        "in": "DAYS_14"
+      },
+
+      {
+        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "in": [
+          "EXTERNAL"
+        ]
+      }
+    ]
+  },
+  "display": {
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/ANSWERS_CASE_SUBMITS"
+        },
+        "descending": true
+      }
+    }
+  }
+}
