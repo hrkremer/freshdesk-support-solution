@@ -1,28 +1,19 @@
 {
-  "$id": "c_Case_Deflection_Rate_by_Month42140",
+  "$id": "c_Case_Deflection_Rate51728",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-  "name": "Case Deflection Rate by Month",
-  "description": "Case Deflection Rate by Month",
+  "name": "Case Deflection Rate",
+  "description": "Case Deflection Rate by Answers Experience",
   "query": {
     "metrics": [
       "yext/ANSWERS_CASE_DEFLECTION_RATE"
     ],
     "dimensions": [
-      "yext/MONTHS"
-    ],
-    "filters": [
-
-      {
-        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
-        "in": [
-          "EXTERNAL"
-        ]
-      }
+      "yext/ANSWERS_EXPERIENCE"
     ]
   },
   "display": {
     "hero": {
-      "aggregation": "SUM"
+      "aggregation": "MEAN"
     }
   }
 }
