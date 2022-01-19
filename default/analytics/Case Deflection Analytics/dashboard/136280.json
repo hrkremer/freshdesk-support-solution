@@ -11,19 +11,12 @@
       "height": 2
     },
     {
-      "insight": "c_Case_Deflection_Rate_by_Month42140",
+      "insight": "c_Case_Deflection_Rate51728",
       "x": 4,
       "y": 0,
       "width": 2,
-      "height": 1
-    },
-    {
-      "insight": "c_Case_Deflections_by_Month42138",
-      "x": 4,
-      "y": 1,
-      "width": 2,
-      "height": 1
-    },
+      "height": 2
+    }
     {
       "insight": "c_Search_Terms_That_Led_To_Case_Submission",
       "x": 0,
@@ -37,15 +30,6 @@
       "y": 2,
       "width": 3,
       "height": 2
-    }
-  ],
-  "filters": [
-    {
-      "filter": "yext/date",
-      "between": [
-        "2021-07-27",
-        "2021-10-19"
-      ]
     }
   ]
 }
