@@ -1,4 +1,19 @@
 {
   "$schema": "https://schema.yext.com/config/km/settings/v1",
-  "primaryEntityType": "helpArticle"
+  "primaryEntityType": "helpArticle",
+  "entityTypeSettings": [
+    {
+      "entityType": "faq",
+      "disabled": false
+    },
+    {
+      "entityType": "helpArticle",
+      "defaultFieldEligibilityGroup": "helpArticle.default",
+      "disabled": false
+    },
+    {
+      "entityType": "location",
+      "disabled": true
+    }
+  ]
 }
