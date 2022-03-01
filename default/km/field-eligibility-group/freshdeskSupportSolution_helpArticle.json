@@ -1,7 +1,7 @@
 {
-  "$id": "helpArticle.default",
+  "$id": "freshdeskSupportSolution_helpArticle",
   "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
-  "name": "Help Article-default",
+  "name": "freshdeskSupportSolution_Help Article-default",
   "entityType": "helpArticle",
   "fields": [
     "c_activeInAnswers",
