@@ -1,20 +1,20 @@
 {
-  "$id": "c_Agent_Desktop_Search__Clicks_by_Vertical_Position",
+  "$id": "c_Agent_Desktop_Searches_Clicks_by_Search_Vertical",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-  "name": "Search \u0026 Clicks by Vertical Position",
-  "description": "Answers Searches and Answers Clicks by Result Vertical Position",
+  "name": "Searches \u0026 Clicks by Search Vertical",
+  "description": "Answers Searches and Answers Clicks by Search Vertical",
   "query": {
     "metrics": [
       "yext/ANSWERS_SEARCHES",
       "yext/ANSWERS_CLICKS"
     ],
     "dimensions": [
-      "yext/ANSWERS_RESULT_VERTICAL_POSITION"
+      "yext/ANSWERS_SEARCH_VERTICAL"
     ],
     "filters": [
       {
         "filter": "yext/date",
-        "in": "DAYS_30"
+        "in": "DAYS_7"
       },
       {
         "filter": "yext/ANSWERS_TRAFFIC_TYPE",
@@ -31,6 +31,13 @@
     ]
   },
   "display": {
-    "table": {}
+    "table": {
+      "sort": {
+        "column": {
+          "metric": "yext/ANSWERS_SEARCHES"
+        },
+        "descending": true
+      }
+    }
   }
 }
