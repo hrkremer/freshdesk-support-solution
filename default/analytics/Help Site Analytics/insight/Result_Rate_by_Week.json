@@ -12,19 +12,15 @@
     ],
     "filters": [
       {
-        "filter": "yext/date",
-        "in": "WEEKS_4"
-      },
-      {
         "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
         "in": [
           "PRODUCTION"
         ]
       },
       {
-        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "filter": "yext/ANSWERS_QUERY_SOURCE",
         "in": [
-          "EXTERNAL"
+          "HELP_SITE"
         ]
       }
     ]

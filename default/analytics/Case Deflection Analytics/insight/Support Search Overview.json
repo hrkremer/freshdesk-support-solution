@@ -14,9 +14,9 @@
     ],
     "filters": [
       {
-        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
+        "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
         "in": [
-          "EXTERNAL"
+          "PRODUCTION"
         ]
       },
       {

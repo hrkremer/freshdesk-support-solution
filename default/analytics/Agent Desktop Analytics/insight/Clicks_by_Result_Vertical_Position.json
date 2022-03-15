@@ -12,19 +12,15 @@
     ],
     "filters": [
       {
-        "filter": "yext/date",
-        "in": "DAYS_30"
-      },
-      {
-        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
-        "in": [
-          "EXTERNAL"
-        ]
-      },
-      {
         "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
         "in": [
           "PRODUCTION"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_QUERY_SOURCE",
+        "in": [
+          "AGENT_DESKTOP"
         ]
       }
     ]

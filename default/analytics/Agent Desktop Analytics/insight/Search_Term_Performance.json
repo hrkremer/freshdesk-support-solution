@@ -16,22 +16,15 @@
     ],
     "filters": [
       {
-        "filter": "yext/date",
-        "between": [
-          "2021-09-05",
-          "2021-09-08"
-        ]
-      },
-      {
-        "filter": "yext/ANSWERS_TRAFFIC_TYPE",
-        "in": [
-          "EXTERNAL"
-        ]
-      },
-      {
         "filter": "yext/ANSWERS_CONFIGURATION_VERSION_LABEL",
         "in": [
           "PRODUCTION"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_QUERY_SOURCE",
+        "in": [
+          "AGENT_DESKTOP"
         ]
       }
     ]
