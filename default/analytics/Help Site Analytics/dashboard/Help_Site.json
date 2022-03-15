@@ -1,7 +1,7 @@
 {
   "$id": "c_Help_Site",
   "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-  "name": "Support Search Analytics",
+  "name": "Help Site Analytics",
   "insights": [
     {
       "insight": "c_Help_Site_Knowledge_Graph_Result_Rate",
