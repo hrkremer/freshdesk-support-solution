@@ -1,5 +1,5 @@
 {
-  "$id": "c_hero_line_chart_case_deflections",
+  "$id": "c_Case_Deflection_hero_line_chart_case_deflections",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Support Search Overview",
   "description": "Overview of how Support Search is performing at the Case Submission Page.",
@@ -13,11 +13,16 @@
       "yext/DAYS"
     ],
     "filters": [
-
       {
         "filter": "yext/ANSWERS_TRAFFIC_TYPE",
         "in": [
           "EXTERNAL"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_QUERY_SOURCE",
+        "in": [
+          "CASE_DEFLECTION"
         ]
       }
     ]

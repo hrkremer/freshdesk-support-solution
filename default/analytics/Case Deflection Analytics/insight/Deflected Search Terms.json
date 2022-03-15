@@ -1,5 +1,5 @@
 {
-  "$id": "c_deflected_search_terms",
+  "$id": "c_Case_Deflection_deflected_search_terms",
   "$schema": "https://schema.yext.com/config/analytics/insight/v1",
   "name": "Deflected Search Terms",
   "description": "Search Terms that were deflected by Support Search.",
@@ -14,14 +14,15 @@
     ],
     "filters": [
       {
-        "filter": "yext/date",
-        "in": "DAYS_14"
-      },
-
-      {
         "filter": "yext/ANSWERS_TRAFFIC_TYPE",
         "in": [
           "EXTERNAL"
+        ]
+      },
+      {
+        "filter": "yext/ANSWERS_QUERY_SOURCE",
+        "in": [
+          "CASE_DEFLECTION"
         ]
       }
     ]
