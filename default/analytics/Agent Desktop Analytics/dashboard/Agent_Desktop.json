@@ -1,7 +1,7 @@
 {
   "$id": "c_Agent_Desktop",
   "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
-  "name": "Support Search Analytics",
+  "name": "Agent Desktop Analytics",
   "insights": [
     {
       "insight": "c_Agent_Desktop_Knowledge_Graph_Result_Rate",
